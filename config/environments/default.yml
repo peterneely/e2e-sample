@@ -1,0 +1,3 @@
+base_url: http://localhost:888
+#base_url: http://shirt-configurator.silverweb.ctshirts.qa
+relative_url: /ShirtFinder

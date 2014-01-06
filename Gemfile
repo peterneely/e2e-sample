@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'rake'
+gem 'page-object'
+gem 'require_all'
+gem 'page_navigation'
+gem 'fig_newton'
+gem 'faker'
+gem 'pretty_face'
