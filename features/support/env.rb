@@ -7,6 +7,7 @@ require 'fig_newton'
 require 'faker'
 
 require_rel 'pages'
+require_rel 'services'
 
 class CustomWorld
   include PageObject::PageFactory

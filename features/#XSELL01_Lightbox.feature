@@ -11,9 +11,9 @@ Feature: Lightbox
   Examples:
     | locale |
     | UK     |
-    | DE     |
-    | US     |
-    | AU     |
+#    | DE     |
+#    | US     |
+#    | AU     |
 
   Scenario: 2: Close by clicking button
     Given a customer is viewing the minibag
