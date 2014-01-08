@@ -1,7 +1,5 @@
 class HomePage < BasePage
 
-  button(:add_to_bag, :alt => 'Add to bag')
-
   def url_correct_for?(locale)
     url_segment = data_for(:locale_ids)[locale.downcase]
     url = "#{FigNewton.base_url}/Country/Change/#{url_segment}"
@@ -11,10 +9,5 @@ class HomePage < BasePage
     end
   end
 
-  def add_product
-    url_segment = data_for(:home_page)['products']
-    url = "#{FigNewton.base_url}/#{url_segment}"
-    @browser.goto url
-    add_to_bag
-  end
+
 end
