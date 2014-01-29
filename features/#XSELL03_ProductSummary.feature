@@ -8,7 +8,6 @@ Feature: Product summary
 
   Scenario: 1: Summary for formal shirts
     And they added a formal shirt into their shopping bag
-    And they are viewing the minibag
     Then display the following details:
       | Details       |
       | Product Image |
@@ -22,7 +21,6 @@ Feature: Product summary
 
   Scenario: 2: Summary for trousers, jackets and blazers
     And they added trousers, a jacket or a blazer into their shopping bag
-    And they are viewing the minibag
     Then display the following details:
       | Details       |
       | Product Image |
@@ -34,7 +32,6 @@ Feature: Product summary
 
   Scenario: 3: Summary for suits
     Given an online customer added a suit into their shopping bag
-    And they are viewing the minibag
     Then display the following details:
       | Details       |
       | Product Image |
@@ -56,7 +53,6 @@ Feature: Product summary
       | Accessories - Shoe care          |
       | Accessories - Boxer shorts       |
       | Womenswear                       |
-    And they are viewing the minibag
     Then display the following details:
       | Details       |
       | Product Image |
@@ -76,7 +72,6 @@ Feature: Product summary
       | Accessories - Umbrellas           |
       | Accessories - Evening accessories |
       | Gift vouchers                     |
-    And they are viewing the minibag
     Then display the following details:
       | Details       |
       | Product Image |

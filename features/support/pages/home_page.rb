@@ -12,6 +12,7 @@ class HomePage < BasePage
   def navigate_to_product_for(product)
     case (product)
       when :formal_shirt then url = "#{FigNewton.base_url}/#{data_for(:home_page)['formal_shirts'][0]}"
+      when :jacket_or_blazer then url = "#{FigNewton.base_url}/#{data_for(:home_page)['jacket_or_blazer'][0]}"
     end
     @browser.goto url
     url
