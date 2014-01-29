@@ -8,6 +8,8 @@ class ProductPage < BasePage
   div(:page, :id => 'outer')
   link(:collar_size, :href => '#collar_size')
   link(:sleeve_length, :href => '#sleeve_length')
+  link(:chest_size, :href => '#jckt_chest')
+  link(:sleeve_and_body_length, :href => '#slv_lngth')
 
   def add_product?
     url_segment = data_for(:home_page)['products']
@@ -42,6 +44,9 @@ class ProductPage < BasePage
     if (product_url.include? "men's-formal-shirts")
       select_collar
       select_sleeve
+    elsif (product_url.include? "men's-blazers-and-jackets")
+      select_chest_size
+      select_sleeve_and_body_length
     end
     add_to_bag
   end
@@ -57,6 +62,18 @@ class ProductPage < BasePage
   def select_sleeve
     sleeve_length_element.when_present.click
     @browser.link(:href, data_for(:home_page)['formal_shirts'][2]).when_present.click
+    sleep 1
+  end
+
+  def select_chest_size
+    chest_size_element.when_present.click
+    @browser.link(:href, data_for(:home_page)['jacket_or_blazer'][1]).when_present.click
+    sleep 1
+  end
+
+  def select_sleeve_and_body_length
+    sleeve_and_body_length_element.when_present.click
+    @browser.link(:href, data_for(:home_page)['jacket_or_blazer'][2]).when_present.click
     sleep 1
   end
 end

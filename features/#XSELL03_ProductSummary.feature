@@ -31,7 +31,7 @@ Feature: Product summary
       | Price         |
 
   Scenario: 3: Summary for suits
-    Given an online customer added a suit into their shopping bag
+    And an online customer added a suit into their shopping bag
     Then display the following details:
       | Details       |
       | Product Image |
@@ -39,7 +39,7 @@ Feature: Product summary
       | Price         |
 
   Scenario: 4: Summary for products with one size option
-    Given an online customer added any of the following product types into their shopping bag:
+    And an online customer added any of the following product types into their shopping bag:
       | Product types                    |
       | Casual shirt                     |
       | Shoes                            |
@@ -63,7 +63,7 @@ Feature: Product summary
       | Price         |
 
   Scenario: 5: Summary for products without size options
-    Given an online customer added any of the following product types into their shopping bag:
+    And an online customer added any of the following product types into their shopping bag:
       | Product types                     |
       | Tie                               |
       | Accessories - Cufflinks           |
