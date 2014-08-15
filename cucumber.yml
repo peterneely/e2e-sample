@@ -1,4 +1,4 @@
 default: --no-source --color --format pretty
 
-debug: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags @debug
-release: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags ~@debug FIG_NEWTON_FILE=release.yml
+debug: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags ~@ignore
+release: features --guess --color --format pretty --format PrettyFace::Formatter::Html --out results/_results.html --tags ~@ignore FIG_NEWTON_FILE=release.yml
