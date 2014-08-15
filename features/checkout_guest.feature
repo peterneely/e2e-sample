@@ -18,7 +18,7 @@ Feature: Checkout
   Examples:
     | locale |
     | UK     |
-#    | US     |
+    | US     |
 #    | DE     |
 #    | AU     |
 
