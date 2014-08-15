@@ -1,6 +1,6 @@
 require_relative '../services/message'
 
-class BasePage
+class Base
   include PageObject
   include DataMagic
   include Message
