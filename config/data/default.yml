@@ -4,13 +4,17 @@ locale_ids:
   us: US
   au: AU
 
-promotion_code_for:
+promotion_codes:
   uk: gbpdefault
   de: dmdefault
   us: usddefault
   au: auddefault
 
-home_page:
-  products: ~randomize ["men's-ties/Gold-_and-blue-classic-spot-woven-tie?q=||tw874gdb|||||||||||||", "men's-accessories/men's-scarves/Black-_and-white-reversible-silk-scarf?q=||ne002blk|||||||||||||", "men's-accessories/umbrella/Union-Jack-umbrella?q=gbpdefault||na009nvr|||||||||||||", "men's-accessories/silver-tie-bar/Tie--bar?q=gbpdefault||mm049slv|||||||||||||"]
-  formal_shirts: ~randomize [["men's-shirts/men's-formal-shirts/White-twill-non--iron-slim-fit-shirt?q=gbpdefault||fn017wht|||||||||||||", "#16", "#4"], ["men's-shirts/men's-formal-shirts/Blue-wide-herringbone-non--iron-cutaway-slim-fit-shirt?q=gbpdefault||fa064blu|||||||||||||", "#16", "#4"],["men's-shirts/men's-formal-shirts/Pink-hairline-stripe-non--iron-slim-fit-shirt?q=gbpdefault||fn072pnk|||||||||||||&ppp=219", "#16", "#4"]]
-  jacket_or_blazer: ~randomize [["men's-outerwear/men's-blazers-and-jackets/Navy-slim-fit-textured-wool-blazer?q=gbpdefault||bl038nav|||||||||||||", "#40", "#R"], ["men's-outerwear/men's-blazers-and-jackets/Dark-green-check-harris-tweed-classic-fit-jacket?q=gbpdefault||jk204dgn|||||||||||||", "#42", "#L"], ["men's-outerwear/men's-blazers-and-jackets/Navy-cotton-drill-classic-fit-jacket?q=gbpdefault||jk220nav|||||||||||||", "#44", "#S"]]
+accessories:
+  uk: ~randomize ["men's-ties/Gold-_and-blue-classic-spot-woven-tie?q=||tw874gdb|||||||||||||", "men's-accessories/men's-scarves/Black-_and-white-reversible-silk-scarf?q=||ne002blk|||||||||||||", "men's-accessories/umbrella/Union-Jack-umbrella?q=gbpdefault||na009nvr|||||||||||||", "men's-accessories/silver-tie-bar/Tie--bar?q=gbpdefault||mm049slv|||||||||||||"]
+
+formal_shirts:
+  uk: ~randomize [["men's-shirts/men's-formal-shirts/White-twill-non--iron-slim-fit-shirt?q=gbpdefault||fn017wht|||||||||||||", "#16", "#4"], ["men's-shirts/men's-formal-shirts/Sky-twill-non--iron-slim-fit-shirt?q=gbpdefault||fn041sky|||||||||||||", "#16", "#4"],["men's-shirts/men's-formal-shirts/Royal-twill-grid-check-non--iron-slim-fit-shirt?q=gbpdefault||fn260ryl|||||||||||||", "#16", "#4"]]
+
+jackets_and_blazers:
+  uk: ~randomize [["men's-outerwear/men's-blazers-and-jackets/Navy-slim-fit-textured-wool-blazer?q=gbpdefault||bl038nav|||||||||||||", "#40", "#R"], ["men's-outerwear/men's-blazers-and-jackets/Dark-green-check-harris-tweed-classic-fit-jacket?q=gbpdefault||jk204dgn|||||||||||||", "#42", "#L"], ["men's-outerwear/men's-blazers-and-jackets/Navy-cotton-drill-classic-fit-jacket?q=gbpdefault||jk220nav|||||||||||||", "#44", "#S"]]

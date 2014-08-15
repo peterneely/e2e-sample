@@ -11,6 +11,8 @@ require_rel 'services'
 
 class CustomWorld
   include PageObject::PageFactory
+
+  $locale = 'uk'
 end
 
 World do

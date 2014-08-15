@@ -5,7 +5,6 @@ Feature: Checkout
 
   Scenario Outline: 01: Guest customer checkout
     Given an online customer is browsing the <locale> site
-    And they navigate to a non-sized product
     And they add one product to their shopping bag
     And they checkout without signing in
     When they pay by any of these cards:
@@ -19,9 +18,9 @@ Feature: Checkout
   Examples:
     | locale |
     | UK     |
-    | US     |
-    | DE     |
-    | AU     |
+#    | US     |
+#    | DE     |
+#    | AU     |
 
   Scenario Outline: 02: Registered customer checkout
     Given an online customer is browsing the <locale> site
